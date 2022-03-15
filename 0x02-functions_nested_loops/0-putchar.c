@@ -7,15 +7,15 @@
 */
 int main(void)
 {
-_putchar puts('_');
-_putchar puts('p');
-_putchar puts('u');
-_pitchar puts('t');
-_putchar puts('c');
-_putchar puts('h');
-_putchar puts('a');
-_putchar puts('r');
-_putchar puts('\n');
+int putchar('_');
+int putchar('p');
+int putchar('u');
+int putchar('t');
+int putchar('c');
+int putchar('h');
+int putchar('a');
+int putchar('r');
+int putchar('\n');
  
 return (0);
 }
