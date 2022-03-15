@@ -2,8 +2,9 @@
 * main - prints the string "_putchar"
 * Return: 0 success.
 */
-main (void)
+int main (void)
 {
-_putchar("_putchar");
+char c = "_putchar";  
+_putchar(c);
 return (0);
 }
