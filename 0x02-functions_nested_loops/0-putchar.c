@@ -1,15 +1,20 @@
+#include "holberton.h"
 /**
-* main - prints the string "_putchar"
-* Return: 0 success.
+* main - Entry point
+*
+* Return: Always 0 (Success)
 */
-int main (void)
+int main(void)
 {
-char c[] = "_putchar";
-int i;
-for(i = 0; i < 9; i++)
+char *sh = "Holberton";
+
+while (*sh)
 {
-_putchar(c[i]);
+_putchar(*sh);
+sh++;
 }
 _putchar('\n');
+
 return (0);
 }
+
