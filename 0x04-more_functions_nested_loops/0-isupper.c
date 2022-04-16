@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <stdio.h>
 /**
 * _isupper - define if a character is uppercase
 *
@@ -11,7 +11,6 @@
 int _isupper(int c)
 {
 if (c >= 'A' && c <= 'Z')
-_putchar("%c: %d\n", c, _isdigit(c));
 return (1);
 else
 return (0);
