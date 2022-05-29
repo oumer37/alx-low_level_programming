@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <stdio.h>
-#include "main.h"
+#include "lists.h"
 
 /**
 * *add_node_end - writes the character c to stdout

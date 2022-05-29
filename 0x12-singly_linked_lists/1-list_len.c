@@ -1,6 +1,6 @@
 #include <stddef.h>
 #include <stdio.h>
-#include "main.h"
+#include "lists.h"
 
 /**
 * list_len - writes the character c to stdout
